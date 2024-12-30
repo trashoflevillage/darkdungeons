@@ -1,10 +1,14 @@
 package io.github.trashoflevillage.darkdungeons;
 
 import io.github.trashoflevillage.darkdungeons.blocks.ModBlocks;
+import io.github.trashoflevillage.darkdungeons.entity.ModEntities;
+import io.github.trashoflevillage.darkdungeons.entity.custom.EnchanterEntity;
 import io.github.trashoflevillage.darkdungeons.items.ModItemGroups;
 import io.github.trashoflevillage.darkdungeons.items.ModItems;
+import io.github.trashoflevillage.darkdungeons.sounds.ModSounds;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -25,5 +29,8 @@ public class DarkDungeons implements ModInitializer {
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
+		ModSounds.registerSounds();
+
+		FabricDefaultAttributeRegistry.register(ModEntities.ENCHANTER, EnchanterEntity.createEnchanterAttributes());
 	}
 }

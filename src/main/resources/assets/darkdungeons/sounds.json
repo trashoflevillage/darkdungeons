@@ -1,0 +1,26 @@
+{
+  "enchanter_ambient": {
+    "subtitle": "sounds.darkdungeons.enchanter_ambient",
+    "sounds": [
+      "darkdungeons:enchanter_ambient_1",
+      "darkdungeons:enchanter_ambient_2",
+      "darkdungeons:enchanter_ambient_3"
+    ]
+  },
+  "enchanter_hurt": {
+    "subtitle": "sounds.darkdungeons.enchanter_hurt",
+    "sounds": [
+      "darkdungeons:enchanter_hurt_1",
+      "darkdungeons:enchanter_hurt_2",
+      "darkdungeons:enchanter_hurt_3"
+    ]
+  },
+  "enchanter_death": {
+    "subtitle": "sounds.darkdungeons.enchanter_death",
+    "sounds": [
+      "darkdungeons:enchanter_death_1",
+      "darkdungeons:enchanter_death_2",
+      "darkdungeons:enchanter_death_3"
+    ]
+  }
+}

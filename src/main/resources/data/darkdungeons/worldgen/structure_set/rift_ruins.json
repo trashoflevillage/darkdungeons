@@ -1,0 +1,13 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 16448597,
+    "separation": 10,
+    "spacing": 200,
+    "spread_type": "triangular"
+  },
+  "structures": [{
+    "structure": "darkdungeons:surface_rift_ruins",
+    "weight": 1
+  }]
+}

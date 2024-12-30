@@ -18,6 +18,9 @@
 		"main": [
 			"io.github.trashoflevillage.darkdungeons.DarkDungeons"
 		],
+		"client": [
+			"io.github.trashoflevillage.darkdungeons.client.DarkDungeonsClient"
+		],
 		"fabric-datagen": [
 			"io.github.trashoflevillage.darkdungeons.DarkDungeonsDataGenerator"
 		]

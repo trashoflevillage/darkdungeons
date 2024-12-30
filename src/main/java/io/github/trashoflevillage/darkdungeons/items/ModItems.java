@@ -1,18 +1,16 @@
 package io.github.trashoflevillage.darkdungeons.items;
 
 import io.github.trashoflevillage.darkdungeons.DarkDungeons;
-import net.minecraft.component.DataComponentTypes;
-import net.minecraft.component.type.DyedColorComponent;
-import net.minecraft.component.type.FoodComponent;
+import io.github.trashoflevillage.darkdungeons.entity.ModEntities;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.math.random.Random;
-
-import java.util.Arrays;
 
 public class ModItems {
+    public static final Item ENCHANTER_SPAWN_EGG = registerItem("enchanter_spawn_egg",
+            new SpawnEggItem(ModEntities.ENCHANTER, 0x561226, 0x4aedd1, new Item.Settings()));
+
     public static void registerModItems() {
         DarkDungeons.LOGGER.info("Registering items for " + DarkDungeons.MOD_ID + ".");
     }

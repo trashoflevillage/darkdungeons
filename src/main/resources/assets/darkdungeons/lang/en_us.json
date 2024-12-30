@@ -1,3 +1,11 @@
 {
-  "block.darkdungeons.checkerboard_block": "Checkerboard Block"
+  "block.darkdungeons.checkerboard_block": "Checkerboard Block",
+  "itemgroup.darkdungeons": "Dark Dungeons",
+
+  "entity.darkdungeons.enchanter": "Enchanter",
+  "item.darkdungeons.enchanter_spawn_egg": "Enchanter Spawn Egg",
+
+  "sounds.darkdungeons.enchanter_ambient": "Enchanter murmurs",
+  "sounds.darkdungeons.enchanter_hurt": "Enchanter hurts",
+  "sounds.darkdungeons.enchanter_death": "Enchanter dies"
 }
